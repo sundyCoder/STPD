@@ -102,12 +102,20 @@ We proposed SDR and EDR metric to compare with different baselines defense perfo
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;SDR=\frac{a}{N1}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 </p>
 
-* Error Defense Rate (EDR) - the percentage of error defense images, which are clean but suffering from mis-classification after applying the defense method. Where b is the number of error defense images, and N2 indicates total number of clean images. A lower score indicates better defense performance.
+* Error Defense Rate (EDR) - the percentage of error defense images, which are clean but suffering from misclassification after applying the defense method. Where b is the number of error defense images, and N2 indicates total number of clean images. A lower score indicates better defense performance.
 
 <p align="center">
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;EDR=\frac{b}{N2}"  title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 </p>
 
+* Top-1 Accuracy - the Top-1 accuracy indicates that the results of the highest probability model answer are the expected results, such that
+
+<p align="center">
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;Acc=\frac{c}{N}" title="\Large x=\frac{-c\pm\sqrt{b^2-4ac}}{2a}" />
+</p>
+
 #### Acknowledgement
-* The one-pixel attack for adversarial samples collection is modified from [one-pixel-attack-keras](https://github.com/Hyperparticle/one-pixel-attack-keras)
+* The one-pixel attack (OPA) for adversarial samples collection is from [one-pixel-attack-keras](https://github.com/Hyperparticle/one-pixel-attack-keras)
+* The JSMA attack for adversarial samples collection is from [Adversarial Robustness Toolbox ](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
+* The CW-L0-norm attack for adversarial samples collection is from [nn_robust_attacks](https://github.com/carlini/nn_robust_attacks)
 
