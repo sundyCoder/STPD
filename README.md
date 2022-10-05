@@ -114,6 +114,24 @@ We proposed SDR and EDR metric to compare with different baselines defense perfo
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;Acc=\frac{c}{N}" title="\Large x=\frac{-c\pm\sqrt{b^2-4ac}}{2a}" />
 </p>
 
+
+### Citation
+
+If you use this middleware or benchmark in your research, please cite the paper and the extended version
+will be submitted to a Journal.
+
+```
+@article{chen2022stpd,
+  title={STPD: Defending against ℓ0-norm attacks with space transformation},
+  author={Chen, Jinlin and Cao, Jiannong and Liang, Zhixuan and Cui, Xiaohui and Yu, Lequan and Li, Wei},
+  journal={Future Generation Computer Systems},
+  volume={126},
+  pages={225--236},
+  year={2022},
+  publisher={Elsevier}
+}
+```
+
 #### Acknowledgement
 * The one-pixel attack (OPA) for adversarial samples collection is from [one-pixel-attack-keras](https://github.com/Hyperparticle/one-pixel-attack-keras)
 * The JSMA attack for adversarial samples collection is from [Adversarial Robustness Toolbox ](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
